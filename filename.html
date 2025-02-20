@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Student Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .skills ul {
+            list-style: none;
+        }
+        .skills li {
+            margin: 0.5rem 0;
+        }
+        .projects .project {
+            display: inline-block;
+            width: 45%;
+            margin: 10px 2.5%;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .projects .project h3 {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>John Doe</h1>
+    <p>Computer Science Engineering Student</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm John Doe, a passionate Computer Science Engineering student with a strong interest in software development, web development, and machine learning. I'm constantly exploring new technologies and enjoy working on projects that challenge me. My goal is to become a full-stack developer and contribute to innovative software solutions.</p>
+</section>
+
+<section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills">
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, C++, JavaScript</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Databases:</strong> MySQL, MongoDB</li>
+            <li><strong>Tools & Technologies:</strong> Git, Docker, Linux, Node.js</li>
+            <li><strong>Machine Learning:</strong> TensorFlow, Scikit-learn</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript to showcase personal projects and skills.</p>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>Created a weather forecasting web application using React and an API to fetch weather data based on user location.</p>
+        </div>
+        <div class="project">
+            <h3>AI Chatbot</h3>
+            <p>Built an AI chatbot using Python and TensorFlow to help users with basic queries related to a specific domain.</p>
+        </div>
+        <div class="project">
+            <h3>Task Manager App</h3>
+            <p>Developed a task management web application using Node.js and MongoDB to help users manage their daily tasks.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact</h2>
+    <div class="contact">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 John Doe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
